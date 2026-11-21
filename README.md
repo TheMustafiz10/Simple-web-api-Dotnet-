@@ -1,11 +1,9 @@
 # Simple-web-api-Dotnet- TripApi
 
 
-# 🚀 TripAPI
-
 A simple controller-based RESTful Web API built with **ASP.NET Core**, **PostgreSQL**, and **Docker**. TripAPI provides a backend foundation for managing trip-related data through organized and maintainable API endpoints.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** ASP.NET Core Web API (.NET)
 - **Architecture:** Controller-based Architecture
@@ -13,7 +11,7 @@ A simple controller-based RESTful Web API built with **ASP.NET Core**, **Postgre
 - **Containerization:** Docker
 - **API Documentation:** Swagger / OpenAPI
 
-## ✨ Features
+## Features
 
 - RESTful API architecture
 - Controller-based request handling
@@ -22,7 +20,7 @@ A simple controller-based RESTful Web API built with **ASP.NET Core**, **Postgre
 - Swagger API documentation
 - Clean and maintainable project structure
 
-## 📋 Prerequisites
+## Prerequisites
 
 Before running the project, make sure you have installed:
 
@@ -30,7 +28,7 @@ Before running the project, make sure you have installed:
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [PostgreSQL](https://www.postgresql.org/) (if running without Docker)
 
-## 📥 Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -67,7 +65,7 @@ dotnet run
 
 The API will start on the configured application URL.
 
-## 🐳 Running with Docker
+## Running with Docker
 
 ### Build the Docker Image
 
@@ -83,7 +81,7 @@ docker run -p 8080:8080 tripapi
 
 Make sure PostgreSQL is accessible from the container and the database connection string is configured correctly.
 
-## 📖 API Documentation
+## API Documentation
 
 If Swagger is enabled, access the interactive API documentation at:
 
@@ -91,7 +89,7 @@ If Swagger is enabled, access the interactive API documentation at:
 http://localhost:8080/swagger
 ```
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 TripAPI/
@@ -114,7 +112,7 @@ TripAPI/
 
 *Note: The project structure may vary depending on the implementation.*
 
-## 🔧 Useful Commands
+## Useful Commands
 
 | Command | Description |
 |---|---|
@@ -126,7 +124,7 @@ TripAPI/
 | `docker ps` | List running containers |
 | `docker images` | List Docker images |
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, suggestions, and improvements are welcome!
 
@@ -151,10 +149,10 @@ Contributions, suggestions, and improvements are welcome!
 
 5. Open a Pull Request.
 
-## 📄 License
+## License
 
 This project is open-source. Add a `LICENSE` file to specify the license under which the project is distributed.
 
 ---
 
-**Built with ❤️ using ASP.NET Core, PostgreSQL, and Docker.**
+**Built with sing ASP.NET Core, PostgreSQL, and Docker.**
